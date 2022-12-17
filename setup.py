@@ -5,8 +5,8 @@ setup(name='clean-folder',
       description='Script to sort files in a directory',
       url='https://github.com/Ar-Dante/clean_folder.git',
       author='Ar.Dante',
-      author_email='abc',
+      author_email='ar.dantess@gmail.com',
       license='MIT',
       packages=find_namespace_packages(),
-      entry_points={'console_scripts': ['clean-folder=clean-folder.clean:main']}
+      entry_point={'console_scripts': ['CleanFolder=clean-folder.clean:main']}
       )
